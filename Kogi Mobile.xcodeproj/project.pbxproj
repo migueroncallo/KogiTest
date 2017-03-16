@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2097CAB9225E08CC6C5BE8F0 /* Pods_Kogi_Mobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EECEAF61C16A585BF237B41 /* Pods_Kogi_Mobile.framework */; };
 		DD0D6EAC1E7B0BBD0044C71C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0D6EAB1E7B0BBD0044C71C /* AppDelegate.swift */; };
 		DD0D6EAE1E7B0BBD0044C71C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0D6EAD1E7B0BBD0044C71C /* ViewController.swift */; };
 		DD0D6EB11E7B0BBD0044C71C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD0D6EAF1E7B0BBD0044C71C /* Main.storyboard */; };
 		DD0D6EB31E7B0BBD0044C71C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD0D6EB21E7B0BBD0044C71C /* Assets.xcassets */; };
 		DD0D6EB61E7B0BBD0044C71C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD0D6EB41E7B0BBD0044C71C /* LaunchScreen.storyboard */; };
+		DD50C7381E7B110800B0B1A0 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD50C7371E7B110800B0B1A0 /* DataService.swift */; };
+		DD50C73A1E7B13CC00B0B1A0 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD50C7391E7B13CC00B0B1A0 /* Artist.swift */; };
+		DD50C73C1E7B1B1A00B0B1A0 /* ArtistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD50C73B1E7B1B1A00B0B1A0 /* ArtistCell.swift */; };
+		DD50C73E1E7B29BD00B0B1A0 /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD50C73D1E7B29BD00B0B1A0 /* AlbumCell.swift */; };
+		DD50C7401E7B2B6C00B0B1A0 /* AlbumDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD50C73F1E7B2B6C00B0B1A0 /* AlbumDetailController.swift */; };
+		DD50C7421E7B2C4B00B0B1A0 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD50C7411E7B2C4B00B0B1A0 /* Album.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03EA5752E33119D45327C3A0 /* Pods-Kogi Mobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kogi Mobile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kogi Mobile/Pods-Kogi Mobile.debug.xcconfig"; sourceTree = "<group>"; };
+		6EECEAF61C16A585BF237B41 /* Pods_Kogi_Mobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kogi_Mobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D28ABD5134E0A03FB6DD422 /* Pods-Kogi Mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kogi Mobile.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kogi Mobile/Pods-Kogi Mobile.release.xcconfig"; sourceTree = "<group>"; };
 		DD0D6EA81E7B0BBD0044C71C /* Kogi Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kogi Mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD0D6EAB1E7B0BBD0044C71C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD0D6EAD1E7B0BBD0044C71C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,12 @@
 		DD0D6EB21E7B0BBD0044C71C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD0D6EB51E7B0BBD0044C71C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD0D6EB71E7B0BBD0044C71C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD50C7371E7B110800B0B1A0 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		DD50C7391E7B13CC00B0B1A0 /* Artist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		DD50C73B1E7B1B1A00B0B1A0 /* ArtistCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistCell.swift; sourceTree = "<group>"; };
+		DD50C73D1E7B29BD00B0B1A0 /* AlbumCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
+		DD50C73F1E7B2B6C00B0B1A0 /* AlbumDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumDetailController.swift; sourceTree = "<group>"; };
+		DD50C7411E7B2C4B00B0B1A0 /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2097CAB9225E08CC6C5BE8F0 /* Pods_Kogi_Mobile.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1DFE87C70F12A551CE8DEE8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EECEAF61C16A585BF237B41 /* Pods_Kogi_Mobile.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63EC22BC19C6D39B231F0AC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03EA5752E33119D45327C3A0 /* Pods-Kogi Mobile.debug.xcconfig */,
+				8D28ABD5134E0A03FB6DD422 /* Pods-Kogi Mobile.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DD0D6E9F1E7B0BBC0044C71C = {
 			isa = PBXGroup;
 			children = (
 				DD0D6EAA1E7B0BBD0044C71C /* Kogi Mobile */,
 				DD0D6EA91E7B0BBD0044C71C /* Products */,
+				63EC22BC19C6D39B231F0AC3 /* Pods */,
+				1DFE87C70F12A551CE8DEE8A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +91,51 @@
 			isa = PBXGroup;
 			children = (
 				DD0D6EAB1E7B0BBD0044C71C /* AppDelegate.swift */,
-				DD0D6EAD1E7B0BBD0044C71C /* ViewController.swift */,
 				DD0D6EAF1E7B0BBD0044C71C /* Main.storyboard */,
 				DD0D6EB21E7B0BBD0044C71C /* Assets.xcassets */,
 				DD0D6EB41E7B0BBD0044C71C /* LaunchScreen.storyboard */,
 				DD0D6EB71E7B0BBD0044C71C /* Info.plist */,
+				DD0D6EBD1E7B0BDD0044C71C /* Controllers */,
+				DD0D6EC01E7B0C160044C71C /* Components */,
+				DD0D6EBE1E7B0BF30044C71C /* Models */,
+				DD0D6EBF1E7B0C020044C71C /* Services */,
 			);
 			path = "Kogi Mobile";
+			sourceTree = "<group>";
+		};
+		DD0D6EBD1E7B0BDD0044C71C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DD0D6EAD1E7B0BBD0044C71C /* ViewController.swift */,
+				DD50C73F1E7B2B6C00B0B1A0 /* AlbumDetailController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		DD0D6EBE1E7B0BF30044C71C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DD50C7391E7B13CC00B0B1A0 /* Artist.swift */,
+				DD50C7411E7B2C4B00B0B1A0 /* Album.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		DD0D6EBF1E7B0C020044C71C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DD50C7371E7B110800B0B1A0 /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		DD0D6EC01E7B0C160044C71C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				DD50C73B1E7B1B1A00B0B1A0 /* ArtistCell.swift */,
+				DD50C73D1E7B29BD00B0B1A0 /* AlbumCell.swift */,
+			);
+			name = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +145,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD0D6EBA1E7B0BBD0044C71C /* Build configuration list for PBXNativeTarget "Kogi Mobile" */;
 			buildPhases = (
+				56CDC762FEF589A086195E01 /* [CP] Check Pods Manifest.lock */,
 				DD0D6EA41E7B0BBC0044C71C /* Sources */,
 				DD0D6EA51E7B0BBC0044C71C /* Frameworks */,
 				DD0D6EA61E7B0BBC0044C71C /* Resources */,
+				76AAD016DF63DEC6B734BFAD /* [CP] Embed Pods Frameworks */,
+				684CEF517842CC9DED296080 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +173,7 @@
 				TargetAttributes = {
 					DD0D6EA71E7B0BBC0044C71C = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = D7N8YFLZUT;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,13 +209,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		56CDC762FEF589A086195E01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		684CEF517842CC9DED296080 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kogi Mobile/Pods-Kogi Mobile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76AAD016DF63DEC6B734BFAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kogi Mobile/Pods-Kogi Mobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DD0D6EA41E7B0BBC0044C71C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD50C7381E7B110800B0B1A0 /* DataService.swift in Sources */,
 				DD0D6EAE1E7B0BBD0044C71C /* ViewController.swift in Sources */,
+				DD50C73A1E7B13CC00B0B1A0 /* Artist.swift in Sources */,
+				DD50C73C1E7B1B1A00B0B1A0 /* ArtistCell.swift in Sources */,
 				DD0D6EAC1E7B0BBD0044C71C /* AppDelegate.swift in Sources */,
+				DD50C73E1E7B29BD00B0B1A0 /* AlbumCell.swift in Sources */,
+				DD50C7401E7B2B6C00B0B1A0 /* AlbumDetailController.swift in Sources */,
+				DD50C7421E7B2C4B00B0B1A0 /* Album.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +388,10 @@
 		};
 		DD0D6EBB1E7B0BBD0044C71C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03EA5752E33119D45327C3A0 /* Pods-Kogi Mobile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D7N8YFLZUT;
 				INFOPLIST_FILE = "Kogi Mobile/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Kogi-Mobile";
@@ -268,8 +402,10 @@
 		};
 		DD0D6EBC1E7B0BBD0044C71C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D28ABD5134E0A03FB6DD422 /* Pods-Kogi Mobile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D7N8YFLZUT;
 				INFOPLIST_FILE = "Kogi Mobile/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Kogi-Mobile";
@@ -297,6 +433,7 @@
 				DD0D6EBC1E7B0BBD0044C71C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
